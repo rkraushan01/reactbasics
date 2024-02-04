@@ -1,11 +1,14 @@
-
-
+import Test from "./test"
 
 function App() {
- 
+
 
   return (
-     <h1 >Learning React Using Vite</h1>
+    <>
+      <Test />
+      <h2>This is a h2 tag</h2>
+    </>
+
   )
 }
 
